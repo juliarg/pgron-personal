@@ -1,0 +1,63 @@
+<!DOCTYPE <html>
+<head>
+	<title>Paul Gron, Ed.D.</title>
+	<!--animsition css stylesheet-->
+	<link rel="stylesheet" href="animsition.min.css">
+	<!--link to css stylesheet-->
+	<link rel="stylesheet" href="paulstyle.css">
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="wrapper animsition">
+		<div id="bimage">
+			<div id="overlay">
+
+			<div id="nav">
+					<a href="default.html" alt="Home" class="link animsition-link">HOME	</a>        |
+					<a href="events.html" alt = "Events" class="link animsition-link">EVENTS  </a>         |
+					<a href="contact.html" alt="Contact" class="link animsition-link">CONTACT   </a>   
+			</div>	
+
+			<div id="content">
+				<h1>Paul Gron, Ed.D.</h1>
+				<h2>Licensed Psychologist</h2>
+			</div>
+			</div>
+		</div>
+
+
+		<div id="about">
+
+			<p>The way psychotherapy is practiced has a lot to do with the mind set and life experience of the psychologist. I have been in private practice since 1980, and beyond the traditional training for psychologists, I also trained extensively in an approach known as Psychology of Mind, or Health Realization. This is a cognitive approach that is very down-to-earth but rooted in principles akin to those behind meditation, yoga and similar traditions that were developed to enhance optimal human functioning.
+			</p>	
+			<br>
+			<p>
+			Since 1971, I have consistently and at times intensively, practiced yoga and meditation.  In addition to enriching my personal life, these practices also deepen my work and my capacity to be present with my clients.  Put simply, I help people to feel more in control of how they experience life, so they can live more fully in the present moment.
+			</p>
+			<br>
+			<p>
+			I work mostly with adults individually, but I also see couples and young adults  in my practice. I specialize in relationship and marriage issues, mood disorders and stress and anxiety problems. In addition to &#34;talk therapy,&#34; I often teach breathing or meditation techniques to clients, which can be helpful to everyone.
+			</p>
+			<br>
+			<p>Occasionally I teach meditation groups.  Please see &#34;Events&#34; for more information.</p>
+
+		</div>
+
+		<div id="footer">
+
+
+		</div>
+		</div>
+	</div>
+	</div>
+
+<!--jquery CDN download --> 
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--link to javascript-->
+<script src="pscript.js"></script> 
+<!--animsition javascript-->
+<script src="jquery.animsition.min.js"></script>
+<!--call animsition-->
+<script src="main.js"></script>
+
+</body>
