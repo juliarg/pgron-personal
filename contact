@@ -1,0 +1,69 @@
+<!DOCTYPE <<html>
+<head>
+	<title>Contact</title>
+	<!--animsition css stylesheet-->
+	<link rel="stylesheet" href="animsition.min.css">
+	<!--link to css stylesheet-->
+	<link rel="stylesheet" href="paulstyle.css">
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="wrapper animsition">
+		<div id="bimage_section">
+			<div id="overlay">
+				<div id="nav">
+					<a href="default.html" alt="Home" class="link animsition-link">HOME	</a>        |
+					<a href="events.html" alt = "Events" class="link animsition-link">EVENTS  </a>         |
+					<a href="contact.html" alt="Contact" class="link animsition-link">CONTACT   </a>   
+				</div>	
+				<div class="contact_section">
+					<div class="title_section">	
+						Contact
+					</div>	
+					<div class="info_section">
+						<p><span style="font-weight:bold">Address:</span> The Concord Professional Building, 747 Main St., Suite 117, Concord, MA</p>
+						<p><span style="font-weight:bold">Phone Number:</span> 978-287-0101</p>
+						<p><span style="font-weight:bold">E-mail:</span> paulhgron@gmail.com</p>
+						<p>If you&#39;d like to contact me to discuss fees, insurance, and availability, please call or send me a message below.</p>
+					</div>
+					
+				</div>
+				<div id="paulpic">
+						<img src="paulpic.png" alt="Paul Gron, Ed.D." class="paulpicpic">
+				</div>
+				<div>
+					<form action="http://www.paulgron.com/cgi-bin/cgiemail/cgi-bin/paulsample.txt" method="post">
+
+						<fieldset>
+
+							<label for="return">E-mail:</label>
+							<input type="mail" id="return" name="user_email">
+							<br><br>
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="user_name"><br><br>
+
+							<br><br>
+						</fieldset>
+
+						<fieldset>
+						<label for="comment">Message:</label>
+						<textarea id="comment" name="user_message"></textarea>
+						</fieldset>
+
+						<button type="submit">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--jquery CDN download --> 
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--link to javascript-->
+<script src="pscript.js"></script> 
+<!--animsition javascript-->
+<script src="jquery.animsition.min.js"></script>
+<!--call animsition-->
+<script src="main.js"></script>
+
+</body>
+</html>
