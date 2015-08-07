@@ -1,0 +1,360 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.link{
+	color:white;
+	text-decoration: none;
+}
+
+.event_link{
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#bimage{
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	position:relative;
+	width: 100%;
+	height:55%;
+}
+
+#bimage_section{
+	background-image: url("background.png");
+	position:relative;
+	width: 100%;
+	height:100%;
+}
+
+#overlay{
+	background: rgba(0, 0, 0, .2);
+	display: block;
+	position: absolute;
+	height:100%;
+	width: 100%;
+}
+
+
+#content{
+	position:absolute;
+	left:2%;
+	bottom:2%;
+	right:10%;
+}
+
+.events_section{
+	position: absolute;
+	width:70%;
+	height:75%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 7%;
+	background-color: white;
+	overflow: scroll;
+}
+
+.contact_section{
+	position: absolute;
+	width:54%;
+	height:33%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 7%;
+	background-color: white;
+	float:left;
+}
+
+#paulpic{
+	position: absolute;
+	border: thick solid white;
+	margin-top: 7%;
+	margin-right: 15%;
+	margin-left: 70%;
+	width: 13%;
+	float: right;
+	height: 31.5%;
+}
+
+form{
+	width: 65%;
+	height:38%;
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 24%;
+	padding: 2%;
+}
+
+input[type="text"], input[type="mail"], textarea{
+	font-size: 1em;
+	font-family: 'Lora', serif;
+	width: 70%;
+	height: auto;
+}
+
+
+label{
+	font-size: 1em;
+	font-family: 'Lora', serif;
+}
+
+button{
+	font-size: 1em ;
+	font-family: 'Lora', serif;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	margin-top: 5%;
+	width: 30%;
+	border: .5%;
+	border-style: solid;
+	border-color:black;
+	float: right;
+}
+
+#nav{
+	position: absolute;
+	background-color:rgba(0, 0, 0, 0.3);
+	top:0;
+	right:0;
+	width: 25%;
+	height: 4%;
+	padding: 1%;
+	color: rgba(255,255,255,1);
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+
+#about{
+	padding-left:2%;
+	padding-top: 2%;
+}
+
+h1{
+	font-size: 3em;
+	color:white;
+	font-family: 'Lora', serif;
+	margin-bottom: .1em;
+}
+
+
+.title_section{  
+	font-size: 3em;
+	color:black;
+	font-family: 'Lora', serif;
+	margin-bottom: .1em;
+	margin-left: 2%;
+	margin-top: 2%;
+	border-bottom: thin solid black;
+	width: 50%
+
+}
+
+.subtitle_section{
+	font-size: 2em;
+}
+
+.info_section{
+	margin:2%;
+}
+
+
+
+h2{
+	font-size:2em;
+	color:white;
+	font-family: 'Lora', serif;
+	margin-bottom: .1em;
+}
+
+p{
+	font-size: 1em;
+	color:black;
+	font-family: "Lora", serif;
+	line-height: 1.2;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+li{
+	margin-bottom: .2em
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1250px){
+
+	#paulpic{
+		margin-left: 67%;
+		background-color: white;
+	}
+
+	.paulpicpic{
+		display: block;
+		margin:auto;
+		vertical-align: middle;
+	}
+
+	.contact_section{
+		margin-left: 12%;
+	}
+
+	form{
+		margin-top: 27%;
+		margin-left: 12%;
+		margin margin-right: 12%;
+
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	form{
+		margin-top: 30%;
+		margin-left: 12%;
+		margin margin-right: 12%;
+	}
+}
+
+@media only screen and (max-width: 920px), only screen and (max-width: 870px) and (orientation: landscape){
+	#nav{
+		width: 50%;
+	}
+	.events_section{
+		margin-top: 10%;
+	}
+
+	#paulpic{
+		margin-left: 67.65%;
+		width: 17%;
+	}
+
+	form{
+		margin-top: 35%;
+		width: 70%;
+	}
+}
+    
+
+@media only screen and (max-width: 800px){
+
+	form{
+		margin-top: 40%;
+		width: 76%;
+	}
+
+	#paulpic{
+		margin-left: 70%;
+		width: 20%;
+	}
+}    
+
+@media only screen and (max-width: 650px){
+	
+	#paulpic{
+		float: none;
+		margin-top: 50%;
+		margin-left: 69%;
+		width:25%;
+	}
+
+	form{
+		width: 50%;
+		height: 40%;
+		margin-top: 50%;
+		margin-left: 9%;
+	}
+
+	.contact_section{
+		height: 30%;
+		width: 87%;
+		margin-left: 9%;
+		margin-top: 10%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+	#nav{
+		width:75%;
+	}
+
+	.events_section{
+		margin-top: 15%;
+	}
+
+	.contact_section{
+		height: 35%;
+		margin-left: 2%;
+		width: 96%;
+	}
+
+	form{
+		margin-top: 70%;
+		height: 40%;
+		margin-left: 2%;
+	}
+
+	#paulpic{
+		float: none;
+		margin-top: 70%;
+		width: 38%;
+		margin-left: 57%;
+	}
+
+       
+
