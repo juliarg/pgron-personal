@@ -12,7 +12,7 @@
 		<div id="bimage_section">
 			<div id="overlay">
 				<div id="nav">
-					<a href="default.html" alt="Home" class="link animsition-link">HOME	</a>        |
+					<a href="index.html" alt="Home" class="link animsition-link">HOME	</a>        |
 					<a href="events.html" alt = "Events" class="link animsition-link">EVENTS  </a>         |
 					<a href="contact.html" alt="Contact" class="link animsition-link">CONTACT   </a>   
 				</div>	
@@ -21,7 +21,15 @@
 						Events
 					</div>	
 					<div class="info_section">
-						<p><span class="subtitle_section">Relaxing Into Being, Meditation Group</span></p>
+						<p><span class="subtitle_section">Relaxing Into Being, Meditation Group: Series 2</span></p>
+						<p><span style="font-weight:bold">Dates:</span> Thursday evenings, October 8 - November 12, 2015</p>
+						<p><span style="font-weight:bold">Time:</span> 6:15 - 7:30 pm</p>
+						<p><span style="font-weight:bold">Cost:</span> $240 </p>
+						<p><span style="font-weight:bold">Location:</span> The Concord Professional Building, 747 Main St., Suite 117, Concord, MA</p>
+						<p>Download the flyer <a href="RelaxingIntoBeing_2.pdf" class="event_link">here</a> </p>
+
+						<br>
+						<p><span class="subtitle_section">Relaxing Into Being, Meditation Group: Series 1</span></p>
 						<p><span style="font-weight:bold">Dates:</span> Thursday evenings, August 13 - September 17, 2015</p>
 						<p><span style="font-weight:bold">Time:</span> 6:15 - 7:30 pm</p>
 						<p><span style="font-weight:bold">Cost:</span> $240 </p>
